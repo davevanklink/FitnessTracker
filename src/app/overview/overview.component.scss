@@ -1,0 +1,40 @@
+@import '../../assets/variables';
+
+.title {
+  text-align: center;
+  font-size: 1rem;
+  margin-top: .5rem;
+}
+
+#workout-overview {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-top: .5rem;
+  padding: .5rem;
+
+  > a.blocks {
+    color: black;
+    text-decoration: none;
+    // flex: 0 1 calc(50% - .5rem);
+    width: 100%;
+    background: $bg-dark-gray;
+    height: 5rem;
+    line-height: 5rem;
+    text-align: center;
+    color: $text-color;
+    border-radius: 3px;
+
+    &.biceps {
+      // background-image: url('/assets/bicep.jpeg');
+    }
+
+    &:hover {
+      background: red;
+    }
+
+    .title {
+      text-transform: capitalize;
+    }
+  }   
+}

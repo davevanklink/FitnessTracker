@@ -1,0 +1,8 @@
+<div id="nav-bar">
+  <div id="title">Overzicht</div>
+</div>
+<div id="workout-overview">
+  <a class="blocks" [class]="workout" *ngFor="let workout of workouts" routerLink="{{ workout }}">
+    <span class="title">{{ workout }}</span>
+  </a>
+</div>
