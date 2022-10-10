@@ -4,7 +4,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build",
+    "build": "ng build --base-href /FitnessTracker/",
     "watch": "ng build --watch --configuration development",
     "start-pwa": "ng build && http-server -p 8080 -c-1 dist/fitness-tracker",
     "test": "ng test"
