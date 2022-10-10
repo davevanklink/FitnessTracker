@@ -9,14 +9,17 @@ import { OverviewComponent } from './overview/overview.component';
 import { WorkoutOverviewComponent } from './workout-overview/workout-overview.component';
 import { WorkoutDetailComponent } from './workout-detail/workout-detail.component';
 import { WorkoutRouteGuard } from './activate-route';
+import { initializeApp, provideFirebaseApp } from '@angular/fire/app';
+import { provideAuth, getAuth } from '@angular/fire/auth';
+import { provideFirestore, getFirestore } from '@angular/fire/firestore';
 
 @NgModule({
-  declarations: [			
+  declarations: [
     AppComponent,
-      OverviewComponent,
-      WorkoutOverviewComponent,
-      WorkoutDetailComponent
-   ],
+    OverviewComponent,
+    WorkoutOverviewComponent,
+    WorkoutDetailComponent
+  ],
   imports: [
     BrowserModule,
     AppRoutingModule,
@@ -25,7 +28,10 @@ import { WorkoutRouteGuard } from './activate-route';
       // Register the ServiceWorker as soon as the application is stable
       // or after 30 seconds (whichever comes first).
       registrationStrategy: 'registerWhenStable:30000'
-    })
+    }),
+    provideFirebaseApp(() => initializeApp(environment.firebase)),
+    provideAuth(() => getAuth()),
+    provideFirestore(() => getFirestore()),
   ],
   providers: [WorkoutRouteGuard],
   bootstrap: [AppComponent]

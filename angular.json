@@ -104,6 +104,16 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {
+            "prerender": false,
+            "ssr": false,
+            "browserTarget": "FitnessTracker:build:production",
+            "firebaseProject": "fitnesstracker-e1aad",
+            "firebaseHostingSite": "fitnesstracker-e1aad"
+          }
         }
       }
     }

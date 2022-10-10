@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "fitnesstracker-e1aad"
+  },
+  "targets": {
+    "fitnesstracker-e1aad": {
+      "hosting": {
+        "FitnessTracker": [
+          "fitnesstracker-e1aad"
+        ]
+      }
+    }
+  }
+}
