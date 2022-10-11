@@ -27,7 +27,7 @@ body {
   padding: 0 .5rem;
   border-bottom: 1px solid #5a5a5a;
 
-  > #title {
+  >#title {
     text-align: center;
     font-size: 1.25rem;
     flex: 1 1 auto;
@@ -42,4 +42,9 @@ body {
     display: flex;
     align-items: center;
   }
+}
+
+.icon-btn {
+  width: 24px;
+  height: 40px;
 }
