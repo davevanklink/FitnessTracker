@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1665473406160,
+  "timestamp": 1665473656325,
   "index": "/FitnessTracker/index.html",
   "assetGroups": [
     {
@@ -17,7 +17,7 @@
         "/FitnessTracker/manifest.webmanifest",
         "/FitnessTracker/polyfills.ff2aa708b85b1b0d.js",
         "/FitnessTracker/runtime.99b2d293ce9dcf64.js",
-        "/FitnessTracker/styles.8731a335708348cf.css"
+        "/FitnessTracker/styles.57379ca28f848661.css"
       ],
       "patterns": []
     },
@@ -40,7 +40,8 @@
         "/FitnessTracker/assets/icons/icon-384x384.png",
         "/FitnessTracker/assets/icons/icon-512x512.png",
         "/FitnessTracker/assets/icons/icon-72x72.png",
-        "/FitnessTracker/assets/icons/icon-96x96.png"
+        "/FitnessTracker/assets/icons/icon-96x96.png",
+        "/FitnessTracker/assets/settings.svg"
       ],
       "patterns": []
     }
@@ -59,13 +60,14 @@
     "/FitnessTracker/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
     "/FitnessTracker/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
     "/FitnessTracker/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "/FitnessTracker/assets/settings.svg": "a73855cb1f8b901899c0cd6401f4df3d46aff826",
     "/FitnessTracker/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
-    "/FitnessTracker/index.html": "0b612c8121acbf5cb0c43d8c0c8ade2e14625cb7",
+    "/FitnessTracker/index.html": "0de78facc7a529988c2b3ecc8ad57355f9b27ab2",
     "/FitnessTracker/main.d3a3d8dddcbede46.js": "abc95a16ea2e577688db56b8f39e4dd2965aa7cf",
     "/FitnessTracker/manifest.webmanifest": "0a838e50d2d6638d42bd93c570c6c8296c908cd6",
     "/FitnessTracker/polyfills.ff2aa708b85b1b0d.js": "1db06a129912a80ca62f3a4899792baabf282cd0",
     "/FitnessTracker/runtime.99b2d293ce9dcf64.js": "fbf40411f9ef09ed3ac4e8dd49d2f0deafeff253",
-    "/FitnessTracker/styles.8731a335708348cf.css": "9e2a85a813486575e0833697df0fae73f1fc57f5"
+    "/FitnessTracker/styles.57379ca28f848661.css": "6d79a59e328b0bc1a46ef2bf65dc42a61cce44ec"
   },
   "navigationUrls": [
     {
