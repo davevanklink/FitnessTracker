@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1665393596589,
+  "timestamp": 1665473406160,
   "index": "/FitnessTracker/index.html",
   "assetGroups": [
     {
@@ -13,11 +13,11 @@
       "urls": [
         "/FitnessTracker/favicon.ico",
         "/FitnessTracker/index.html",
-        "/FitnessTracker/main.84533fa066fc8cb7.js",
+        "/FitnessTracker/main.d3a3d8dddcbede46.js",
         "/FitnessTracker/manifest.webmanifest",
         "/FitnessTracker/polyfills.ff2aa708b85b1b0d.js",
         "/FitnessTracker/runtime.99b2d293ce9dcf64.js",
-        "/FitnessTracker/styles.8ac055b05504376c.css"
+        "/FitnessTracker/styles.8731a335708348cf.css"
       ],
       "patterns": []
     },
@@ -60,12 +60,12 @@
     "/FitnessTracker/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
     "/FitnessTracker/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
     "/FitnessTracker/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
-    "/FitnessTracker/index.html": "789a6f8c0fc47f5b4bd19d9d2b9269b85875b93a",
-    "/FitnessTracker/main.84533fa066fc8cb7.js": "6ec1a9320aca8379a47607f9796d1e7e340661df",
+    "/FitnessTracker/index.html": "0b612c8121acbf5cb0c43d8c0c8ade2e14625cb7",
+    "/FitnessTracker/main.d3a3d8dddcbede46.js": "abc95a16ea2e577688db56b8f39e4dd2965aa7cf",
     "/FitnessTracker/manifest.webmanifest": "0a838e50d2d6638d42bd93c570c6c8296c908cd6",
     "/FitnessTracker/polyfills.ff2aa708b85b1b0d.js": "1db06a129912a80ca62f3a4899792baabf282cd0",
     "/FitnessTracker/runtime.99b2d293ce9dcf64.js": "fbf40411f9ef09ed3ac4e8dd49d2f0deafeff253",
-    "/FitnessTracker/styles.8ac055b05504376c.css": "d2e9a3de9c62166b7e3f9ae18260eeefe4de776c"
+    "/FitnessTracker/styles.8731a335708348cf.css": "9e2a85a813486575e0833697df0fae73f1fc57f5"
   },
   "navigationUrls": [
     {

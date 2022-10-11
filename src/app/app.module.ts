@@ -12,14 +12,16 @@ import { WorkoutRouteGuard } from './activate-route';
 import { initializeApp, provideFirebaseApp } from '@angular/fire/app';
 import { provideAuth, getAuth } from '@angular/fire/auth';
 import { provideFirestore, getFirestore } from '@angular/fire/firestore';
+import { SettingsComponent } from './settings/settings.component';
 
 @NgModule({
-  declarations: [
+  declarations: [	
     AppComponent,
     OverviewComponent,
     WorkoutOverviewComponent,
-    WorkoutDetailComponent
-  ],
+    WorkoutDetailComponent,
+      SettingsComponent
+   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
